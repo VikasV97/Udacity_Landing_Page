@@ -1,0 +1,107 @@
+#navbar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.JL {
+  padding: 100px;
+  display: inline-block;
+  width: 100%;
+  height: 60%;
+  background-image: url("../assets/JL.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#introText {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#jumpTo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+/* import later*/
+.superhero {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  height: 80%;
+  grid-template-areas: "content1 image1";
+}
+
+.superhero2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  height: 80%;
+  grid-template-areas: "image2 content2";
+}
+.superhero3 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  height: 80%;
+  grid-template-areas: "content1 image1";
+}
+.superhero4 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  height: 80%;
+  grid-template-areas: "image2 content2";
+}
+
+.description1 {
+  grid-area: content1;
+  text-align: justify;
+  padding: 10px;
+}
+.description2 {
+  grid-area: content2;
+  text-align: justify;
+  padding: 10px;
+}
+
+.pic1 {
+  grid-area: image1;
+  background-image: url("../assets/superman.jpg");
+  background-size: cover;
+}
+
+.pic2 {
+  grid-area: image2;
+  background-image: url("../assets/Batman.png");
+  background-size: cover;
+}
+
+.pic3 {
+  grid-area: image1;
+  background-image: url("../assets/wonder_woman.png");
+  background-size: cover;
+}
+.pic4 {
+  grid-area: image2;
+  background-image: url("../assets/flash.png");
+  background-size: cover;
+}
+
+.footer {
+  border: 2px solid black;
+}
