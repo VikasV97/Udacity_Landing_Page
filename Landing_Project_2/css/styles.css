@@ -1,0 +1,63 @@
+header{
+    height: 50px;
+}
+.navbar{
+    display: inline;
+    position: fixed;
+    background-color: rgb(226, 226, 226);
+    width: 99%;
+    height: 70px;
+    
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    flex-direction: row;
+    float: right;
+}
+
+li{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+li:hover {
+ background-color: yellow;
+}
+
+#section1, #section3{
+    background-color: rgb(206, 203, 203);
+}
+#section2, #section4{
+    background-color: rgb(226, 226, 226);
+}
+.dc{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.container{
+    text-align: justify;
+    line-height: 20px;
+}
+
+p, h4{
+    padding: 10px;
+}
+#moveUp{
+    float: right;
+}
+
+
+@media (min-width: 320px) and (max-width: 374px){
+    .navbar{
+        height: 100px;
+        
+    }
+}
